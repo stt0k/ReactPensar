@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🛍️ Product Catalog with Dark Mode and Search Filtering
 
-First, run the development server:
+Welcome to the **Product Catalog** project! This application is built with **Next.js**, **React**, and **TypeScript**. It features an elegant and responsive design with a fully functional product filtering system, dark mode toggle, and clean code structure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Features
+
+- 🌗 **Dark Mode**: Toggle between light and dark themes using `next-themes`.
+- 🔍 **Search Filter**: Search for products by name and filter by availability.
+- 🎨 **Responsive Design**: Built with modern CSS utilities for a seamless experience across devices.
+- 💾 **Reusable Components**: Clean and modular code structure for scalability.
+- ⚡ **Optimized Performance**: Leveraging the power of Next.js for server-side rendering and fast page loads.
+
+---
+
+## 🖼️ Preview
+
+### Light Mode
+![image](https://github.com/user-attachments/assets/6044b253-876b-4901-bec9-b53fdda5a295)
+
+### Dark Mode
+![image](https://github.com/user-attachments/assets/84247e58-f410-4386-93f4-2efde23d7baa)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Frontend Library**: [React](https://reactjs.org/)
+- **TypeScript**: For type-safe development
+- **Styling**: Tailwindcss and modern UI components
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 📂 Project Structure
+
+```
+├── components/
+│   ├── FilterableProductTable.tsx
+│   ├── ProductTable.tsx
+│   ├── ProductRow.tsx
+│   ├── ProductCategoryRow.tsx
+│   ├── SearchBar.tsx
+│   ├── mode-toggle.tsx
+│   ├── theme-provider.tsx
+│   └── ui/
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── label.tsx
+│       ├── table.tsx
+│       ├── badge.tsx
+│       ├── dropdown-menu.tsx
+│       ├── input.tsx
+│       └── checkbox.tsx
+├── pages/
+│   ├── _app.tsx
+│   └── index.tsx
+├── public/
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+Make sure you have the following installed:
 
-To learn more about Next.js, take a look at the following resources:
+- [Node.js](https://nodejs.org/) >= 16.x
+- npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stt0k/ReactPensar.git
+   cd ReactPensar
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Open [http://localhost:3000](http://localhost:3000) to see the app in action.
+
+---
+
+## 🤝 Contribution
+
+Contributions, issues, and feature requests are welcome! Feel free to fork this repository and open a pull request.
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use it in your own projects.
+
+---
+
+## 📧 Contact
+
+For any inquiries or questions, reach out via:
+
+- [GitHub Profile](https://github.com/stt0k)
